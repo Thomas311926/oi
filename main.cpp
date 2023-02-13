@@ -21,7 +21,7 @@ num add(num a, num b, int conv) {
       if(b.size()-1<i){
         ans.push_back(a[i]);
       }else{
-        ans.push_back(a[i]+b)
+        ans.push_back(a[i]+b[i]);
       }
     }
   }
